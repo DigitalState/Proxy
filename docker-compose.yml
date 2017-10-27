@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-    proxy:
+    api_proxy:
         image: jwilder/nginx-proxy:alpine
         ports:
             - 80:80

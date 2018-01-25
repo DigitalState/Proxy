@@ -3,6 +3,7 @@ version: '2'
 services:
     proxy:
         image: jwilder/nginx-proxy:alpine
+        restart: always
         ports:
             - '${PORT}:80'
         volumes:

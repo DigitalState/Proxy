@@ -1,12 +1,12 @@
 version: '2'
 
 services:
-    nginx:
-        image: jwilder/nginx-proxy:alpine
-        ports:
-            - '${PORT}:80'
-        volumes:
-            - /var/run/docker.sock:/tmp/docker.sock:ro
+  nginx:
+    image: jwilder/nginx-proxy:alpine
+    ports:
+      - '${PORT}:80'
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
 
 networks:
-    default: ~
+  default: ~

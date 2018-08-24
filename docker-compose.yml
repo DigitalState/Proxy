@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  proxy:
+    image: traefik:1.7-alpine
+    environment:
+      SERVICE_IGNORE: 'true'
+      CONSUL_HTTP_TOKEN: '${DISCOVERY_TOKEN}'
+    command: ''
+    ports:
+      - '${PORT}:80'
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+networks:
+  default: ~

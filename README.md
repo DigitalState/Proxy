@@ -18,9 +18,7 @@ It uses [Traefik](https://docs.traefik.io/) by Containous SAS.
 
 ## Documentation
 
-Documentation...
-
-Further documentation can be found in the [Documentation Repository](https://github.com/DigitalState/Documentation)
+Further documentation can be found in the [Documentation Repository](https://github.com/DigitalState/Documentation).
 
 ## References
 

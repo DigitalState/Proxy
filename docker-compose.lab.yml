@@ -1,9 +1,0 @@
-version: '3'
-
-services:
-  proxy:
-    command: '--api'
-    ports:
-      - '${UI_PORT}:8080'
-    volumes:
-      - '${DIRECTORY}/proxy/lab/config.toml:/etc/traefik/traefik.toml'

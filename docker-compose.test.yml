@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  proxy:
+    volumes:
+      - ${DIRECTORY}/proxy/config.test.toml:/etc/traefik/traefik.toml

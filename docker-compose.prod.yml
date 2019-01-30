@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  proxy:
+    command: ''
+    volumes:
+      - ${DIRECTORY}/proxy/config.prod.toml:/etc/traefik/traefik.toml

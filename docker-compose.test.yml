@@ -2,5 +2,8 @@ version: '3.4'
 
 services:
   proxy:
+    command: --api
+    ports:
+      - ${UI_PORT}:8080
     volumes:
       - ${DIRECTORY}/proxy/config.test.toml:/etc/traefik/traefik.toml

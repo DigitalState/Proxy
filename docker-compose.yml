@@ -2,9 +2,7 @@ version: '3.4'
 
 services:
   proxy:
-    image: digitalstate/proxy
-    build:
-      context: ./proxy
+    image: digitalstate/proxy:0.16.0
     environment:
       CONSUL_HTTP_TOKEN: ${DISCOVERY_TOKEN}
     ports:

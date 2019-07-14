@@ -1,5 +1,7 @@
 # Changelog
 
+## 0.17.0 (2019-07-14)
+
 ## 0.16.1 (2019-04-13)
 
 - Bug [Docker] Add default docker command to proxy image
